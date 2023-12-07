@@ -9,17 +9,17 @@ contract ExampleContract {
         require(b > 0, "Input 'b' must be greater than zero");
 
         // Perform a complex operation (e.g., multiplication)
-        uint result = a * b;
+        uint Gopal_result = a * b;
 
         // Use assert to ensure that the result is not zero
-        assert(result != 0);
+        assert(Gopal_result != 0);
 
         // Use revert to explicitly revert the transaction if the result is unexpected
-        if (result > type(uint).max / 2) {
-            revert("Result is too large");
+        if (Gopal_result > type(uint).max / 2) {
+            revert("Gopal_result is too large");
         }
 
-        // Return the result if all conditions are met
-        return result;
+        // Return the Gopal_result if all conditions are met
+        return Gopal_result;
     }
 }
