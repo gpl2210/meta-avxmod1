@@ -35,16 +35,3 @@ The performComplexOperation function takes two unsigned integers a and b as inpu
 #### Return
 
 - If all input requirements and control flow checks are satisfied, the function returns the result of the complex operation.
-
-## Usage
-
-To use this smart contract, deploy it to a compatible Ethereum network and interact with the performComplexOperation function by providing valid inputs.
-
-### Example
-
-```solidity
-// Deploy the contract
-ExampleContract example = new ExampleContract();
-
-// Call the performComplexOperation function
-uint result = example.performComplexOperation(5, 10);
